@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#weather {
+  font-size: 30px;
+  color: white;
+  text-align: end;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#clock {
+  font-size: 50px;
+  text-align: end;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  color: rgb(194, 150, 39);
+}
+
+.title {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 200px;
+  margin-top: 100px;
+  text-shadow: 1px 10px 10px white;
+  color: black;
+}
+
+.date {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  width: 550px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#button:hover {
+  letter-spacing: 2px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.imgbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgboximg {
+  width: 600px;
+  height: 600px;
+}
+#login-form {
+  text-align: center;
+  color: rgb(85, 82, 82);
+}
+
+#login-form input {
+  width: 900px;
+  height: 100px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  background-color: transparent;
+  color: rgb(85, 82, 82);
+  caret-color: rgb(85, 82, 82);
+  font-size: 50px;
+  text-align: center;
+}
+#login-form ::placeholder {
+  color: rgb(85, 82, 82);
+}
+
+#greeting {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(85, 82, 82);
+}
+
+.hidden {
+  display: none;
+}
+
+.hiddenimg {
+  display: none;
+}
+
+#todo-form {
+  text-align: center;
+}
+#todo-Write {
+  width: 800px;
+  height: 100px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  background-color: transparent;
+  color: rgb(165, 150, 150);
+  caret-color: rgb(165, 150, 150);
+  font-size: 50px;
+  text-align: center;
+
+  border-color: rgb(165, 150, 150);
+  margin-bottom: 100px;
+}
+
+#todo-Write::placeholder {
+  border-color: rgb(165, 150, 150);
+  color: rgb(165, 150, 150);
+}
+
+#todo-list {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: rgb(165, 150, 150);
+  border-color: rgb(165, 150, 150);
+  text-align: center;
+  list-style: none;
+}
+#quotes {
+  text-align: center;
+
+  color: white;
+}
+
+#quote {
+  display: block;
+  font-size: 40px;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+#author {
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+#dday {
+  text-align: center;
+  opacity: 0.9;
+  font-size: 50px;
+}
